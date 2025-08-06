@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  // 基础配置
-  base: './',
+  // 基础配置 - GitHub Pages 路径
+  base: '/resume-portfolio/',
   
   // 开发服务器配置
   server: {
