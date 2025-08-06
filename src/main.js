@@ -3,6 +3,11 @@ import LocomotiveScroll from 'locomotive-scroll'
 import 'locomotive-scroll/dist/locomotive-scroll.css'
 import './styles/main.scss'
 
+// 环境配置
+const isProd = import.meta.env.PROD
+const basePath = isProd ? '/Parallax-Resume-Portfolio' : ''
+const modelPath = `${basePath}/robot.glb`
+
 // 等待 DOM 完全加载
 let scroll
 
@@ -259,8 +264,10 @@ function initRobotModel() {
 
     let headBone = null;
     let robotModel = null;
+    // 加载 glb
     const loader = new GLTFLoader()
-    loader.load('/robot.glb', (gltf) => {
+    // 使用环境配置的路径
+    loader.load(modelPath, (gltf) => {
         const model = gltf.scene
         robotModel = model;
         model.scale.set(0.1, 0.1, 0.1)

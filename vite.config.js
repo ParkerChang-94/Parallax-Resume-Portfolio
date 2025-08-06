@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 
-export default defineConfig({
-  // 基础配置 - GitHub Pages 路径
-  base: '/Parallax-Resume-Portfolio/',
+export default defineConfig(({ command }) => ({
+  // 基础配置 - 开发环境用相对路径，生产环境用GitHub Pages路径
+  base: command === 'serve' ? './' : '/Parallax-Resume-Portfolio/',
   
   // 开发服务器配置
   server: {
@@ -41,4 +41,4 @@ export default defineConfig({
   optimizeDeps: {
     include: ['locomotive-scroll']
   }
-})
+}))
