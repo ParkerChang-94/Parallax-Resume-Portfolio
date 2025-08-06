@@ -1,6 +1,7 @@
 # Parallax Resume Portfolio（个人简历作品集）
 
 A modern resume portfolio based on Vite + Three.js + LocomotiveScroll, featuring 3D robot model, video background, parallax scrolling, and interactive animation. Perfect for frontend developers to showcase their skills.
+
 本项目是一个基于 Vite + Three.js + LocomotiveScroll 的现代前端简历作品集，支持3D机器人模型、视频背景、滚动视觉差、动画交互等酷炫效果，适合前端开发者展示个人能力。
 
 ## Features 主要特性
@@ -48,12 +49,18 @@ A modern resume portfolio based on Vite + Three.js + LocomotiveScroll, featuring
 ## Customization & Extension 自定义与扩展
 - Replace `public/robot.glb` to use your own 3D model (with animation)
 - Edit `src/styles/main.scss` for your own colors and layout
+
 - 替换 `public/robot.glb` 可更换3D模型（需带动画）
 - 修改 `src/styles/main.scss` 可自定义配色与布局
 
 ## Credits 致谢
 - 3D model animations can be made with [Mixamo](https://www.mixamo.com/) or Blender
+- 3D模型动画可用 Mixamo 或 Blender 制作
+
 - Model sources: https://threejs.org/examples/#webgl_animation_skinning_morph, https://www.patreon.com/quaternius
+- 模型转载：https://threejs.org/examples/#webgl_animation_skinning_morph，   https://www.patreon.com/quaternius
+
+---
 
 Feel free to open an issue or PR for questions and suggestions!
 如有问题或建议，欢迎提 Issue 或 PR！ 
