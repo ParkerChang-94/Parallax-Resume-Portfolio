@@ -53,7 +53,6 @@ A modern resume portfolio based on Vite + Three.js + LocomotiveScroll, featuring
 
 ## Credits 致谢
 - 3D model animations can be made with [Mixamo](https://www.mixamo.com/) or Blender
-- 3D模型动画可用 Mixamo 或 Blender 制作
 - Model sources: https://threejs.org/examples/#webgl_animation_skinning_morph, https://www.patreon.com/quaternius
 
 Feel free to open an issue or PR for questions and suggestions!
