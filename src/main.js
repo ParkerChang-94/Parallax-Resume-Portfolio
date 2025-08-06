@@ -5,7 +5,7 @@ import './styles/main.scss'
 
 // 环境配置
 const isProd = import.meta.env.PROD
-const basePath = isProd ? '/Parallax-Resume-Portfolio' : ''
+const basePath = isProd ? '/cool-website-resume' : ''
 const modelPath = `${basePath}/robot.glb`
 
 // 等待 DOM 完全加载
