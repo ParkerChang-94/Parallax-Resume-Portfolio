@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   // 基础配置 - GitHub Pages 路径
-  base: '/resume-portfolio/',
+  base: '/Parallax-Resume-Portfolio/',
   
   // 开发服务器配置
   server: {
