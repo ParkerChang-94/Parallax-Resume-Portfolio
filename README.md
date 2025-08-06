@@ -48,14 +48,12 @@ A modern resume portfolio based on Vite + Three.js + LocomotiveScroll, featuring
 ## Customization & Extension 自定义与扩展
 - Replace `public/robot.glb` to use your own 3D model (with animation)
 - Edit `src/styles/main.scss` for your own colors and layout
-
 - 替换 `public/robot.glb` 可更换3D模型（需带动画）
 - 修改 `src/styles/main.scss` 可自定义配色与布局
 
 ## Credits 致谢
 - 3D model animations can be made with [Mixamo](https://www.mixamo.com/) or Blender
 - 3D模型动画可用 Mixamo 或 Blender 制作
-
 - Model sources: https://threejs.org/examples/#webgl_animation_skinning_morph, https://www.patreon.com/quaternius
 - 模型转载：https://threejs.org/examples/#webgl_animation_skinning_morph，   https://www.patreon.com/quaternius
 
