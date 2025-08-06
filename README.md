@@ -59,7 +59,5 @@ A modern resume portfolio based on Vite + Three.js + LocomotiveScroll, featuring
 - Model sources: https://threejs.org/examples/#webgl_animation_skinning_morph, https://www.patreon.com/quaternius
 - 模型转载：https://threejs.org/examples/#webgl_animation_skinning_morph，   https://www.patreon.com/quaternius
 
----
-
 Feel free to open an issue or PR for questions and suggestions!
 如有问题或建议，欢迎提 Issue 或 PR！ 
