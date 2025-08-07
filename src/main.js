@@ -5,7 +5,7 @@ import './styles/main.scss'
 
 // 环境配置
 const isProd = import.meta.env.PROD
-const basePath = isProd ? '/cool-resume-tamplate' : ''
+const basePath = isProd ? '/cool-resume-template' : ''
 const modelPath = `${basePath}/robot.glb`
 
 // 等待 DOM 完全加载
