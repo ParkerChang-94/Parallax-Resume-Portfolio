@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig(({ command }) => ({
   // 基础配置 - 开发环境用相对路径，生产环境用GitHub Pages路径
-  base: command === 'serve' ? './' : '/cool-website-resume/',
+  base: command === 'serve' ? './' : '/cool-resume-tamplate/',
   
   // 开发服务器配置
   server: {
